@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<c3p0-config>
+	<default-config>
+		<property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
+		<property name="jdbcUrl">jdbc:oracle:thin:@192.168.67.142:1521:mm
+		</property>
+		<property name="user">pbr</property>
+		<property name="password">pbrpass</property>
+		<property name="acquireIncrement">5</property>
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">5</property>
+		<property name="maxPoolSize">20</property>
+	</default-config>
+
+	<named-config name="oracle">
+		<property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
+		<property name="jdbcUrl">jdbc:oracle:thin:@192.168.67.142:1521:mm
+		</property>
+		<property name="user">pbr</property>
+		<property name="password">pbrpass</property>
+		<property name="acquireIncrement">5</property>
+		<property name="initialPoolSize">10</property>
+		<property name="minPoolSize">5</property>
+		<property name="maxPoolSize">20</property>
+	</named-config>
+
+</c3p0-config>  
