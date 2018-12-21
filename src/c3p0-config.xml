@@ -3,10 +3,10 @@
 <c3p0-config>
 	<default-config>
 		<property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
-		<property name="jdbcUrl">jdbc:oracle:thin:@192.168.67.142:1521:mm
+		<property name="jdbcUrl">jdbc:oracle:thin:@127.0.0.1:1521:mm
 		</property>
 		<property name="user">pbr</property>
-		<property name="password">pbrpass</property>
+		<property name="password">pass</property>
 		<property name="acquireIncrement">5</property>
 		<property name="initialPoolSize">10</property>
 		<property name="minPoolSize">5</property>
@@ -15,10 +15,10 @@
 
 	<named-config name="oracle">
 		<property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
-		<property name="jdbcUrl">jdbc:oracle:thin:@192.168.67.142:1521:mm
+		<property name="jdbcUrl">jdbc:oracle:thin:@127.0.0.1:1521:mm
 		</property>
 		<property name="user">pbr</property>
-		<property name="password">pbrpass</property>
+		<property name="password">pass</property>
 		<property name="acquireIncrement">5</property>
 		<property name="initialPoolSize">10</property>
 		<property name="minPoolSize">5</property>
